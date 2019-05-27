@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Restaurant: Food Ordering</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+      <style type="text/css">
+  .header
+{
+   background: #f4f4f4;
+   border-bottom:#ccc 3px solid;
+}
+
+.h5
+{
+  background: #f4f4f4;
+   border-bottom:#ccc 3px solid;
+}
+
+.container
+{
+   width: :700px;
+   margin: 30px auto;
+   text-align:left;
+}
+
+body
+{
+/*  text-align: left;*/
+  font-size: 18px;
+  font-family: sans-serif;
+
+}
+
+#form
+{
+  border: 2px solid black;
+}
+
+#password
+{
+  padding-right: 238px;
+  background: #f4f4f4;
+}
+
+
+.form-group input
+{
+    background: #f4f4f4;
+  padding: 12px;
+  margin:15px;
+  align-items: left;
+}
+  </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+
+    <section>
+      <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h5>Delete Item</h5>
+    <form action="item_delete.php" id="#form" method="post" name="#form">
+    <div class="form-group">
+      <label>Item_id :</label>
+    <input id="item_id" name="item_id" placeholder='item_id' type='text'>
+
+    <div class="form-group">
+    <input id='btn' name="submit" type='submit' value='Submit'>
+    </div>
+
+    </form>
+
+
+    <div>
+        <a href="item_add.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">ADD</a>
+        <a href="item_status.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">UPDATE STATUS</a>
+        <a href="item_edit.html" class="btn btn-primary p-3 px-xl-4 py-xl-3">EDIT</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+</body>
+</html>
